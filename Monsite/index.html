@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMA POWER</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>KIT MMA DÉBUTANT</h1>
+            <p>Apprenez à vous battre avec des stars du MMA.</p>
+            <button class="cta-btn">Commencer maintenant</button>
+        </div>
+    </header>
+
+   
+    <section class="cards">
+        <div class="container">
+            <h2>Choisissez votre programme MMA</h2>
+            <div class="card-grid">
+                <!-- Carte 1 -->
+                <div class="card">
+                    <img src="images/mma_shanghai.jpg" alt="Programme MMA Shanghai">
+                    <h3>MMA Shanghai</h3>
+                    <p>Découvrez les techniques de MMA avec nos experts locaux.</p>
+                    <button class="cta-btn">Inscrivez-vous à Shanghai</button>
+                </div>
+
+               
+                <div class="card">
+                    <img src="images/mma_paris.jpg" alt="Programme MMA Paris">
+                    <h3>MMA Paris</h3>
+                    <p>Entraînez-vous avec des champions internationaux à Paris.</p>
+                    <button class="cta-btn">Inscrivez-vous à Paris</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/mma_rio.jpg" alt="Programme MMA Rio">
+                    <h3>MMA Rio</h3>
+                    <p>Profitez d'un entraînement intensif dans la ville natale du MMA.</p>
+                    <button class="cta-btn">Inscrivez-vous à Rio</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="contact">
+        <div class="container">
+            <h2>Contactez-nous pour plus d'informations</h2>
+            <p>Remplissez ce formulaire pour nous poser vos questions ou vous inscrire à nos programmes MMA.</p>
+            <form action="#" method="POST" class="contact-form">
+                <!-- Nom et Prénom -->
+                <div class="form-group">
+                    <label for="name">Nom complet :</label>
+                    <input type="text" id="name" name="name" placeholder="Entrez votre nom" required>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Adresse e-mail :</label>
+                    <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
+                </div>
+
+                <!-- Niveau d'expérience -->
+                <div class="form-group">
+                    <label for="experience">Niveau d'expérience en MMA :</label>
+                    <select id="experience" name="experience" required>
+                        <option value="" disabled selected>Choisissez votre niveau</option>
+                        <option value="beginner">Débutant</option>
+                        <option value="intermediate">Intermédiaire</option>
+                        <option value="advanced">Avancé</option>
+                    </select>
+                </div>
+
+                <!-- Message -->
+                <div class="form-group">
+                    <label for="message">Votre question ou message :</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Posez votre question ici..." required></textarea>
+                </div>
+
+                <!-- Bouton de soumission -->
+                <button type="submit" class="cta-btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 MMA POWER. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
